@@ -194,23 +194,23 @@ namespace ASP_1
                 {
                     if ((string)ViewState["Operation"] == "Addition")
                     {
-                        calc_result.Value = _Calculate.Add(Convert.ToInt32(ViewState["Value1"]), Convert.ToInt32(ViewState["Value2"])).ToString();
+                        calc_result.Value = _Calculate.add(Convert.ToInt32(ViewState["Value1"]), Convert.ToInt32(ViewState["Value2"])).ToString();
                     }
                     else if ((string)ViewState["Operation"] == "Subtraction")
                     {
-                        calc_result.Value = _Calculate.Subtract(Convert.ToInt32(ViewState["Value1"]), Convert.ToInt32(ViewState["Value2"])).ToString();
+                        calc_result.Value = _Calculate.subtract(Convert.ToInt32(ViewState["Value1"]), Convert.ToInt32(ViewState["Value2"])).ToString();
                     }
                     else if ((string)ViewState["Operation"] == "Multiplication")
                     {
-                        calc_result.Value = _Calculate.Multiply(Convert.ToInt32(ViewState["Value1"]), Convert.ToInt32(ViewState["Value2"])).ToString();
+                        calc_result.Value = _Calculate.multiply(Convert.ToInt32(ViewState["Value1"]), Convert.ToInt32(ViewState["Value2"])).ToString();
                     }
                     else if ((string)ViewState["Operation"] == "Division")
                     {
-                        calc_result.Value = _Calculate.Divide(Convert.ToInt32(ViewState["Value1"]), Convert.ToInt32(ViewState["Value2"])).ToString();
+                        calc_result.Value = _Calculate.divide(Convert.ToInt32(ViewState["Value1"]), Convert.ToInt32(ViewState["Value2"])).ToString();
                     }
                     else if ((string)ViewState["Operation"] == "Percentage")
                     {
-                        calc_result.Value = _Calculate.Percentage(Convert.ToInt32(ViewState["Value1"]), Convert.ToInt32(ViewState["Value2"])).ToString();
+                        calc_result.Value = _Calculate.percentage(Convert.ToInt32(ViewState["Value1"]), Convert.ToInt32(ViewState["Value2"])).ToString();
                     }
                     else Response.Write("<script>alert('No Operation was recorded.')</script>");
                 }
