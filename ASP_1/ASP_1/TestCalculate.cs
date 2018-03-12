@@ -35,7 +35,7 @@ namespace ASP2
         public void testDivide()
         {
             ASP_1.Calculate f = new ASP_1.Calculate();
-            Assert.AreEqual(f.divide(5, 5), 0);
+            Assert.AreEqual(f.divide(6, 2), 3);
             Assert.AreEqual(f.divide(-15, -3), 5);
             Assert.AreNotEqual(f.divide(2, 2), 2);
         }
