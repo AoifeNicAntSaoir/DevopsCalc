@@ -66,3 +66,7 @@ C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\bin\nunit.framework.xml
 C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\obj\Debug\ASP_1.csprojResolveAssemblyReference.cache
 C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\obj\Debug\ASP_1.dll
 C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\obj\Debug\ASP_1.pdb
+C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\bin\WebDriver.dll
+C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\bin\WebDriver.Support.dll
+C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\bin\WebDriver.xml
+C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\bin\WebDriver.Support.xml

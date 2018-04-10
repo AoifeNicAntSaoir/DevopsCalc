@@ -1,0 +1,242 @@
+{
+  "version": "0.1",
+  "toolInfo": {
+    "toolName": "Microsoft (R) Visual C# Compiler",
+    "productVersion": "1.0.0",
+    "fileVersion": "1.0.0"
+  },
+  "issues": [
+    {
+      "ruleId": "S3415",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\TestCalculate.cs",
+              "region": {
+                "startLine": 12,
+                "startColumn": 28,
+                "endLine": 12,
+                "endColumn": 43
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+      "fullMessage": "The standard assertions library methods such as AreEqual and AreSame in MSTest and NUnit, or Equal and Same in XUnit, expect the first argument to be the expected value and the second argument to be the actual value. Swap them, and your test will still have the same outcome (succeed/fail when it should) but the error messages will be confusing. ",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Assertion arguments should be passed in the correct order",
+        "category": "Major Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-3415",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S2184",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\Calculate.cs",
+              "region": {
+                "startLine": 19,
+                "startColumn": 19,
+                "endLine": 19,
+                "endColumn": 34
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Cast one of the operands of this division to 'double'.",
+      "fullMessage": "When division is performed on ints, the result will always be an int. You can assign that result to a double, float or decimal with automatic type conversion, but having started as an int, the result will likely not be what you expect. If the result of int division is assigned to a floating-point variable, precision will have been lost before the assignment. Instead, at least one operand should be cast or promoted to the final type before the operation takes place.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Results of integer division should not be assigned to floating point variables",
+        "category": "Minor Bug",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-2184",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S3415",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\TestCalculate.cs",
+              "region": {
+                "startLine": 20,
+                "startColumn": 28,
+                "endLine": 20,
+                "endColumn": 47
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+      "fullMessage": "The standard assertions library methods such as AreEqual and AreSame in MSTest and NUnit, or Equal and Same in XUnit, expect the first argument to be the expected value and the second argument to be the actual value. Swap them, and your test will still have the same outcome (succeed/fail when it should) but the error messages will be confusing. ",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Assertion arguments should be passed in the correct order",
+        "category": "Major Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-3415",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S3415",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\TestCalculate.cs",
+              "region": {
+                "startLine": 37,
+                "startColumn": 28,
+                "endLine": 37,
+                "endColumn": 45
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+      "fullMessage": "The standard assertions library methods such as AreEqual and AreSame in MSTest and NUnit, or Equal and Same in XUnit, expect the first argument to be the expected value and the second argument to be the actual value. Swap them, and your test will still have the same outcome (succeed/fail when it should) but the error messages will be confusing. ",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Assertion arguments should be passed in the correct order",
+        "category": "Major Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-3415",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S3415",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\TestCalculate.cs",
+              "region": {
+                "startLine": 38,
+                "startColumn": 28,
+                "endLine": 38,
+                "endColumn": 48
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+      "fullMessage": "The standard assertions library methods such as AreEqual and AreSame in MSTest and NUnit, or Equal and Same in XUnit, expect the first argument to be the expected value and the second argument to be the actual value. Swap them, and your test will still have the same outcome (succeed/fail when it should) but the error messages will be confusing. ",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Assertion arguments should be passed in the correct order",
+        "category": "Major Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-3415",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S3415",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\TestCalculate.cs",
+              "region": {
+                "startLine": 28,
+                "startColumn": 28,
+                "endLine": 28,
+                "endColumn": 48
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+      "fullMessage": "The standard assertions library methods such as AreEqual and AreSame in MSTest and NUnit, or Equal and Same in XUnit, expect the first argument to be the expected value and the second argument to be the actual value. Swap them, and your test will still have the same outcome (succeed/fail when it should) but the error messages will be confusing. ",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Assertion arguments should be passed in the correct order",
+        "category": "Major Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-3415",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S3415",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\TestCalculate.cs",
+              "region": {
+                "startLine": 29,
+                "startColumn": 28,
+                "endLine": 29,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+      "fullMessage": "The standard assertions library methods such as AreEqual and AreSame in MSTest and NUnit, or Equal and Same in XUnit, expect the first argument to be the expected value and the second argument to be the actual value. Swap them, and your test will still have the same outcome (succeed/fail when it should) but the error messages will be confusing. ",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Assertion arguments should be passed in the correct order",
+        "category": "Major Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-3415",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1643",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\Users\seamus\Desktop\DevopsCalc\ASP_1\ASP_1\Default.aspx.cs",
+              "region": {
+                "startLine": 174,
+                "startColumn": 20,
+                "endLine": 174,
+                "endColumn": 96
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Use a StringBuilder instead.",
+      "fullMessage": "StringBuilder is more efficient than string concatenation, especially when the operator is repeated over and over as in loops.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Strings should not be concatenated using '+' in a loop",
+        "category": "Minor Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1643",
+        "isEnabledByDefault": "True"
+      }
+    }
+  ]
+}
