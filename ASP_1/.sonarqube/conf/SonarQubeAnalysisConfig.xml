@@ -75,8 +75,8 @@
     <Property Name="sonar.xml.file.suffixes">.xml,.xsd,.xsl</Property>
     <Property Name="sonar.dbcleaner.weeksBeforeDeletingAllSnapshots">260</Property>
     <Property Name="sonar.updatecenter.url">https://update.sonarsource.org/update-center.properties</Property>
-    <Property Name="sonar.core.id">AWJeoCuPTSFspELDxi72</Property>
-    <Property Name="sonar.core.startTime">10/04/2018 12:10:42</Property>
+    <Property Name="sonar.core.startTime">13/04/2018 16:08:35</Property>
+    <Property Name="sonar.core.id">AWK_jRSFdt0GhyJSLsAb</Property>
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">http://localhost:9000</Property>
