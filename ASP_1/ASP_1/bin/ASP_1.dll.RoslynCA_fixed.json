@@ -36,35 +36,6 @@
       }
     },
     {
-      "ruleId": "S2184",
-      "locations": [
-        {
-          "analysisTarget": [
-            {
-              "uri": "C:\\Users\\seamus\\Desktop\\DevopsCalc\\ASP_1\\ASP_1\\Calculate.cs",
-              "region": {
-                "startLine": 19,
-                "startColumn": 19,
-                "endLine": 19,
-                "endColumn": 34
-              }
-            }
-          ]
-        }
-      ],
-      "shortMessage": "Cast one of the operands of this division to 'double'.",
-      "fullMessage": "When division is performed on ints, the result will always be an int. You can assign that result to a double, float or decimal with automatic type conversion, but having started as an int, the result will likely not be what you expect. If the result of int division is assigned to a floating-point variable, precision will have been lost before the assignment. Instead, at least one operand should be cast or promoted to the final type before the operation takes place.",
-      "properties": {
-        "severity": "Warning",
-        "warningLevel": "1",
-        "defaultSeverity": "Warning",
-        "title": "Results of integer division should not be assigned to floating point variables",
-        "category": "Minor Bug",
-        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-2184",
-        "isEnabledByDefault": "True"
-      }
-    },
-    {
       "ruleId": "S3415",
       "locations": [
         {
@@ -90,6 +61,35 @@
         "title": "Assertion arguments should be passed in the correct order",
         "category": "Major Code Smell",
         "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-3415",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S2184",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\Users\\seamus\\Desktop\\DevopsCalc\\ASP_1\\ASP_1\\Calculate.cs",
+              "region": {
+                "startLine": 19,
+                "startColumn": 19,
+                "endLine": 19,
+                "endColumn": 34
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Cast one of the operands of this division to 'double'.",
+      "fullMessage": "When division is performed on ints, the result will always be an int. You can assign that result to a double, float or decimal with automatic type conversion, but having started as an int, the result will likely not be what you expect. If the result of int division is assigned to a floating-point variable, precision will have been lost before the assignment. Instead, at least one operand should be cast or promoted to the final type before the operation takes place.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Results of integer division should not be assigned to floating point variables",
+        "category": "Minor Bug",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-2184",
         "isEnabledByDefault": "True"
       }
     },
