@@ -2,5 +2,5 @@ projectKey=DevopsCalculatorKey
 serverUrl=http://localhost:9000
 serverVersion=7.0.0.36138
 dashboardUrl=http://localhost:9000/dashboard/index/DevopsCalculatorKey
-ceTaskId=AWK_mqzjdt0GhyJSLs4k
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWK_mqzjdt0GhyJSLs4k
+ceTaskId=AWLiwsfpcBVR5PVKoADx
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWLiwsfpcBVR5PVKoADx
